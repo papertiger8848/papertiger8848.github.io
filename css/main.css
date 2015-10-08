@@ -2,12 +2,25 @@
 body {
   margin: 0; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
+.button {
+  background-color: #FF4081;
+  width: 7em;
+  height: 3em;
+  display: block; }
+
 header {
   height: 5em;
   background-color: #00BCD4; }
 
 .action {
   height: 9em; }
+  .action .action-button {
+    margin: 0 auto;
+    margin-top: 7em; }
 
 .haoduo {
   height: 9em;

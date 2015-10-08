@@ -12,3 +12,13 @@ $divider-color:        #B6B6B6;
 body {
   margin: 0;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
+.button {
+  background-color: $accent-color;
+  width: 7em;
+  height: 3em;
+  display: block;
+}
