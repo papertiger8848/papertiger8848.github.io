@@ -13,6 +13,18 @@ header {
 .haoduo {
   height: 9em;
   background-color: $primary-color;
+  h2 {
+    margin-top: 2em;
+    color: $primary-color-text;
+    text-align: center;
+    font-weight: normal;
+  }
+  p {
+    color: $primary-color-text;
+    opacity: 0.8;
+    text-align: center;
+    font-weight: normal;
+  }
 }
 .books {
   height: 9em;
