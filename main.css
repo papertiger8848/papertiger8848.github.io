@@ -1,0 +1,86 @@
+/* common.css*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font: 15px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  color: #555;
+}
+img {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  zoom: 1;
+}
+
+/* blog.css*/
+.blog-wrapper {
+  width: 660px;
+  margin: 0px auto;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+/* welcome.css */
+.banner-page {
+
+}
+
+/* layout.css*/
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #00b0b8;
+  height: 40px;
+}
+
+.header .logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  /* 居中*/
+  position: fixed;
+  left: 50%;
+  margin-left: -30px;
+  top: 10px;
+
+  /* 字体居中*/
+  color: #fff;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: center;
+
+  /* 颜色样式*/
+  background: #00c4cc;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+}
+
+/* blog post*/
+.post-title {
+  font-weight: normal;
+  color: #eb3170;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.post-image {
+  max-width: 100%;
+  display: block;
+  margin: 30px auto;
+}
